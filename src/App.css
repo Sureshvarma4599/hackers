@@ -75,7 +75,7 @@ button{
   color: white;
 }
 p{
-  color:white
+  
 }
 
 td, th{
@@ -90,5 +90,30 @@ table{
   background-color:none;
 }
 .id{
-  background-color: tomato;
+  width:200px;
+  height: 200px;
+}
+.detail{
+display: flex;
+
+text-align: left;
+}
+.info{
+  border: 2px solid black;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+text-align: left;
+}
+.content{
+  margin: 20px;
+  padding: 10px;
+}
+h3{
+  margin: 10px;
+}
+.photos{
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
 }

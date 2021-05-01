@@ -4,8 +4,8 @@ import '../App.css'
 
 
 export default class Welcome extends Component {
-    constructor(){
-    super();
+    constructor(props){
+    super(props);
     this.state={
         datas:[],
         reload:false
