@@ -36,3 +36,59 @@
     transform: rotate(360deg);
   }
 }
+img{
+  width:33%;
+  height: 70%;
+}
+.panel{
+  width:80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+.user{
+ background-color: whitesmoke;
+}
+.admin{
+  background-color: whitesmoke;
+}
+.form{
+  margin: auto;
+  width:400px;
+  height: 500px;
+  background-color: black;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+input{
+  padding: 12px;
+  margin: 20px;
+}
+button{
+  width:150px;
+  height: 30px;
+  margin: 10%;
+  background-color:blue;
+  border: 2px solid blue;
+  color: white;
+}
+p{
+  color:white
+}
+
+td, th{
+  border: 1px solid #dddddd;
+  text-align:center;
+  padding: 2px;
+  width:300px;
+  background-color: white;
+}
+table{
+ 
+  background-color:none;
+}
+.id{
+  background-color: tomato;
+}
