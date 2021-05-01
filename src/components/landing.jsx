@@ -7,6 +7,8 @@ export default function Landing() {
     return (
         <div>
             <h1>Hackers Ranking System</h1>
+            <p>admin_login : suresh@gmail.com</p>
+            <p>password : suresh</p>
             <div className="panel">
                 <div className="user">
                   <Link to="/login"> <img src={User} alt=""/>
