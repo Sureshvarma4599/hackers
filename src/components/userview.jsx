@@ -18,6 +18,9 @@ export default class Userview extends Component {
         .then(res=>{
             console.log(res)
             this.setState({datas:res.data})
+        const order = this.state.datas.sort((a,b)=>a.name-b.name)
+        console.log(order)
+            this.setState({datas:order})
         })
         .catch(err=>{
             console.log(err)
@@ -38,6 +41,9 @@ export default class Userview extends Component {
     render() {
         return (
            <React.Fragment>
+               <div className="photos">
+                   
+               </div>
              
                <div className="photos">
                   
@@ -63,7 +69,7 @@ export default class Userview extends Component {
                <img src={User} style={{width:"60px",height:"60px"}}  alt=""/>
                   <h3>{id.name}</h3> 
                   <br/>
-                  <h3>Overall Rank:{id.overall_rank}</h3>
+                 
                   <div className="info">
                   <div className="content">
                    <p>Profile: {id.profile_link}</p>
@@ -86,6 +92,7 @@ export default class Userview extends Component {
                    <p>timestamp : {id.timestamp}</p>
                    <p>Device : {id.device_type}</p>
                    </div>
+                   <h3>Overall Rank:{id.overall_rank}</h3>
                     </div>     
                     </div>
               </span>
