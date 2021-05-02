@@ -79,14 +79,15 @@ p{
 }
 
 td, th{
-  border: 1px solid #dddddd;
+ border: 1px solid #dddddd;
   text-align:center;
-  padding: 2px;
-  width:300px;
+  padding: 8px;
+  width:140px;
+  margin: 0%;
   background-color: white;
 }
 table{
- 
+ width: 150%;
   background-color:none;
 }
 .id{
@@ -116,4 +117,7 @@ h3{
   display: flex;
   flex-direction: row;
   overflow: auto;
+}
+.views{
+  width: 150%;
 }

@@ -40,11 +40,11 @@ export default class View extends Component {
              
                <div className="views">
                    <h6>Ranks : {this.state.datas.length}</h6>
-               <table className="a" striped bordered hover>
+               <table id="customers">
                <tr>
                    <thead>
                    <th>Name</th>
-                   <th>Profile</th>
+                  
                    <th>Location</th>
                    <th>Education</th>
                    <th>Challenges Solved</th>
@@ -71,11 +71,11 @@ export default class View extends Component {
               <span key={data.id}>
                 
                
-             <tbody>
+             
                    <tr>
-                       <thead>
+                   <thead>
                     <td>{data.name}</td>
-                     <td>{data.profile_link}</td> 
+                    
                      <td>{data.location}</td>
                      <td>{data.education}</td>
                      <td>{data.challenges_Solved}</td>
@@ -98,7 +98,7 @@ export default class View extends Component {
                      </thead>
                      </tr>
                  
-              </tbody>
+             
                          
             
               </span>
